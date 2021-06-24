@@ -1,0 +1,36 @@
+.cardButtonsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.cardButton {
+    /*box-shadow: 0 5px 12px 0 rgba(42,51,83,.12),0 0 5px rgba(0,0,0,.06);*/
+    box-shadow: 0 5px 12px 0 rgba(251, 251, 251, 0.089),0 0 5px rgba(255, 255, 255, 0.068);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    padding: 25px;
+    color: aliceblue;
+    text-decoration: solid;
+    font-weight: bold;
+    transition: transform .3s;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cardButton:hover {
+    transform: scale(1.1);
+}
+
+.cardButtonBlue {
+    background: linear-gradient(to right, rgb(45, 87, 226), rgb(17, 28, 124))
+}
+
+.cardButtonAqua {
+    background: linear-gradient(to right, rgb(55, 138, 153), rgb(7, 80, 85))
+}
+.cardButtonRed {
+    background: linear-gradient(to right, rgb(163, 48, 48), rgb(255, 2, 2))
+}
+.cardButtonGreen {
+    background: linear-gradient(to right, rgb(45, 226, 120), rgb(7, 133, 13))
+}
